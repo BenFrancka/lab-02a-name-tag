@@ -19,8 +19,8 @@ pronounButton.addEventListener('click', () => {
 
 const fontChangeButton = document.getElementById("font-change-button");
 const helloFont = documnet.getElementById("hello-font");
-
+helloFont.style.fontFamily= "fantasy";
 
 fontChangeBUtton.addEventListener('click', () => {
-    
+    helloFont.textContent = helloFont.style.fontFamily;
 });
