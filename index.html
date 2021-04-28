@@ -10,15 +10,25 @@
     <title>Name Tag</title>
 </head>
 <body>
+    <header>
+        <input id = "user-input" class = "input" type="text"
+            placeholder="Type your name; click -->">
+        <button id = "name-button" class="button"></button>
+        <input id = "user-pronoun-input" class= "input" type="text"
+            placeholder="Type your pronouns; click -->">
+        <button id = "pronoun-button" class="button"></button>
+        <button id = "font-change-button" class="big-button">Font Change<br>Button</button>
+
+    </header>
     <main>
-        <p class= "name-tag">
-            <strong class= "hello">HELLO</strong>
+        <section class= "name-tag">
+            <strong id = "hello-font" class= "hello">HELLO</strong>
             <span class= "name-is">my name is</span>
-            <em  class= "person">Ben Francka</em>
-            
-        </p>
+            <em id= "user-name" class= "person"></em>
+            <em id="user-pronouns" class="person"></em>
+        </section>
     </main>
 
-     
+    <script type="module" src="app.js"></script>
 </body>
 </html>

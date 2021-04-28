@@ -10,6 +10,35 @@ body, html {
     box-sizing:border-box;
 }
 
+header {
+    background: rgb(204, 203, 203);
+    height: 200px;
+}
+
+input {
+    width: 250px;
+    height: 100px;
+    text-align: center;
+    border-radius: 25%;
+}
+
+.button {
+    height: 50px;
+    width: 50px;
+    background: red;
+    border-radius: 50%;
+    border: solid black 1px;
+}
+
+.big-button{
+    height: 100px;
+    width: 100px;
+    background: rgb(241, 111, 111);
+    border-radius: 50%;
+    border: solid black 1px;
+    font-weight: bold;
+
+}
 main {
     height: 500px;
     width: 700px;
@@ -48,6 +77,13 @@ main {
     background-color:  whitesmoke;
     color: black;
     font-size: 6rem;
+    font-family: 'Dancing Script', cursive;
+}
+
+#user-pronouns {
+    background-color:  red;
+    color: whitesmoke;
+    font-size: 4rem;
     font-family: 'Dancing Script', cursive;
 }
 
